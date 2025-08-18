@@ -1,0 +1,55 @@
+:root {
+    /* Extract from color styles in figma */
+
+    /* Primary */
+    --brand-green: #00856F;
+    --brand-green-light: #DCE9E2;
+    --brand-green-light-02: #F7F9F9;
+    --brand-beige: #FFFAF1;
+
+    /* Secondary */
+
+    --gray-headline: #212529;
+    --gray-paragraph: #495057; 
+    --white: #ffffff;
+
+    font-family: 'DM Sans';
+}
+
+.appbar {
+    height: 72px;
+    vertical-align: bottom;
+    align-content: center;
+    align-items: stretch;
+    background-color: var(--brand-green-light);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appbar button {
+    color: var(--brand-green);
+    opacity: 0.7;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 16px;
+    font-size: 16px;
+    font-weight: 500; 
+    text-align: center;
+}
+
+.appbar button.selected {
+    border-bottom: 2px solid var(--brand-green);
+    opacity: 1;
+    color: var(--brand-green);
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+
