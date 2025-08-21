@@ -1,1 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
+
+@theme {
+
+    /* Primary */
+    --color-brand-green: #00856F;
+    --color-brand-green-light: #DCE9E2;
+    --color-brand-green-light-02: #F7F9F9;
+    --color-brand-beige: #FFFAF1;
+
+    /* Secondary */
+
+    --color-gray-headline: #212529;
+    --color-gray-paragraph: #495057; 
+    --color-white: #ffffff;
+
+    --font-default: DM Sans;
+    --font-alternative: Roboto;
+}
