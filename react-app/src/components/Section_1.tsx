@@ -1,7 +1,7 @@
 export default function Section1() {
   return (
-    <div className="h-[606px] bg-brand-green-light row ">
-      <div className="column">
+    <div className="h-[606px] bg-brand-green-light flex flex-row items-center">
+      <div className="">
         <div className="text-[14px] font-bold font-default">
           BOAS-VINDAS A DOCTORCARE 👋
         </div>
