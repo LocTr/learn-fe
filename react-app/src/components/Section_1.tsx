@@ -12,7 +12,7 @@ export default function Section1() {
         </div>
         <button className="text-brand-green-light-02 border-1 bg-brand-green border-brand-green rounded-full px-4 py-2 cursor-pointer">
           Agende sua consulta
-          </button>
+        </button>
       </div>
       <img
         src="assets/images/woman-img.png"

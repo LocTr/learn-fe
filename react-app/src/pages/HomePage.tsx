@@ -1,4 +1,4 @@
-import Appbar from "../components/Appbar";
+import Appbar from "../components/appbar";
 import Footer from "../components/Footer";
 import InfoBox from "../components/InfoBox";
 import Section1 from "../components/Section_1";
@@ -10,16 +10,16 @@ export default function HomePage() {
   return (
     <>
       <Appbar />
-        <>
-            <Section1 />
-            <div className="flex justify-center relative -mt-25 -mb-30 z-20">
-                    <InfoBox />
-            </div>
-            <Section2 />
-            <Section3 />
-            <Section4 />
-            <Footer />
-        </>
+      <>
+        <Section1 />
+        <div className="flex justify-center relative -mt-25 -mb-30 z-20">
+          <InfoBox />
+        </div>
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Footer />
+      </>
     </>
   );
 }

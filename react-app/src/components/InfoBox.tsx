@@ -1,4 +1,4 @@
-import {CheckIcon} from "@heroicons/react/16/solid"
+import { CheckIcon } from "@heroicons/react/16/solid"
 
 export default function InfoBox() {
     return <div className="h-[210px] bg-brand-beige flex flex-row items-center justify-center gap-6 grid-rows-5 px-[60px] rounded-[6px] border-1 border-brand-green-light">

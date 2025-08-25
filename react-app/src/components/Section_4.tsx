@@ -22,10 +22,10 @@ function InfoRow({ icon, content }: { icon: JSX.Element; content: string }) {
   return (
     <div className="flex flex-row items-center gap-4 pb-2">
       <div className="w-5 h-5 text-brand-green">
-      {icon}
+        {icon}
       </div>
       <div className="text-[18px] text-gray-paragraph">
-      {content}
+        {content}
       </div>
     </div>
   );
